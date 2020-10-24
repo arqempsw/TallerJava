@@ -1,5 +1,7 @@
 package com.topdown.CreditCard.ServiceImpl;
 
+import com.workshop.wsdl.ObjectFactory;
+import com.workshop.wsdl.VerifyCreditCardResponseElement;
 import org.springframework.stereotype.Service;
 
 import com.topdown.CreditCard.Service.CreditCardService;
@@ -10,9 +12,10 @@ public class CreditCardServiceImplementation implements CreditCardService {
 
 
 	@Override
-	public String getStringFromService() {
+	public Boolean verifyCreditCard() {
 		// TODO Auto-generated method stub
-		 
-		return null;
+		ObjectFactory objImpl = new ObjectFactory();
+		VerifyCreditCardResponseElement verifyResponse = objImpl.createVerifyCreditCardResponseElement();
+		return verifyResponse.isResult();
 	}
 }

@@ -11,8 +11,8 @@ public class CreditCardDialect {
 	@Autowired
 	CreditCardService creditCardService;
 	
-	public String getStringData() {
-		return creditCardService.getStringFromService();
+	public Boolean verifyCreditCard() {
+		return creditCardService.verifyCreditCard();
 	}
 
 }

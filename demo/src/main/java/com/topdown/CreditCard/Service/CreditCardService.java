@@ -5,6 +5,6 @@ import org.springframework.stereotype.Service;
 @Service
 public interface CreditCardService {
 	
-	public String getStringFromService();
+	public Boolean verifyCreditCard();
 
 }
