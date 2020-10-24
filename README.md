@@ -12,5 +12,5 @@
 
 3. luego docker-compose up -d
 
-4. Ingresar al sitio http://localhost:8081/app
+4. Ingresar al sitio http://localhost:8081/CreditCard
 
