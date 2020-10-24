@@ -1,4 +1,5 @@
-FROM tomcat
-COPY app.war /usr/local/tomcat/webapps/app.war
-COPY CreditCard.war /usr/local/tomcat/webapps/CreditCard.war
+FROM openjdk:11.0-jdk
+COPY . /usr/app/
+WORKDIR /usr/app
 EXPOSE 8080
+ENTRYPOINT ["java", "-jar", "demo-0.0.1-SNAPSHOT.jar"]
