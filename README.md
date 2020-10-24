@@ -6,9 +6,9 @@
 
 # Ejecución del proyecto
 
-1.Conectarse a la VPN de la Javeriana. 
+1. Conectarse a la VPN de la Javeriana. 
 
-2.Clonar el repositorio. (git clone https://github.com/arqempsw/TallerJava.git)
+2. Clonar el repositorio. (git clone https://github.com/arqempsw/TallerJava.git)
 
 3. En la carpeta TallerJava ejecutar: docker-compose build
 
