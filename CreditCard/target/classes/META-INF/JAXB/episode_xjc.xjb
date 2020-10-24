@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.2 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2020.10.23 a las 09:06:00 PM CDT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://services.creditverifier.com/">
+    <schemaBindings map="false">
+      <package name="com.workshop.wsdl"/>
+    </schemaBindings>
+    <bindings scd="tns:chargeCreditCardElement">
+      <class ref="com.workshop.wsdl.ChargeCreditCardElement"/>
+    </bindings>
+    <bindings scd="tns:chargeCreditCardResponseElement">
+      <class ref="com.workshop.wsdl.ChargeCreditCardResponseElement"/>
+    </bindings>
+    <bindings scd="~tns:CreditCardValidationFaultMessage">
+      <class ref="com.workshop.wsdl.CreditCardValidationFaultMessage"/>
+    </bindings>
+    <bindings scd="tns:verifyCreditCardElement">
+      <class ref="com.workshop.wsdl.VerifyCreditCardElement"/>
+    </bindings>
+    <bindings scd="tns:verifyCreditCardResponseElement">
+      <class ref="com.workshop.wsdl.VerifyCreditCardResponseElement"/>
+    </bindings>
+  </bindings>
+  <bindings scd="x-schema::tns" xmlns:tns="http://services.creditverifier.com/types/">
+    <schemaBindings map="false">
+      <package name="com.workshop.wsdl"/>
+    </schemaBindings>
+    <bindings scd="~tns:CreditCard">
+      <class ref="com.workshop.wsdl.CreditCard"/>
+    </bindings>
+  </bindings>
+</bindings>
+
