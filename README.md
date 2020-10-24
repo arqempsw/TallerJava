@@ -1,1 +1,4 @@
 # TallerJava
+
+# Diagrama de componentes
+
