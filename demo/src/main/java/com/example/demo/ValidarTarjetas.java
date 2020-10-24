@@ -11,31 +11,22 @@ import javax.persistence.Table;
 @Table(name = "ValidarTarjetas")
 class ValidarTarjetas {
 
-    private long id;
-    private String tarjeta;
+    private int id;
 
     public ValidarTarjetas() {
 
     }
 
-    public ValidarTarjetas(String tarjeta) {
-        this.tarjeta = tarjeta;
-    }
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    public long getId() {
-        return id;
-    }
-    public void setId(long id) {
+    public ValidarTarjetas(int id) {
         this.id = id;
     }
 
-    @Column(name = "tarjeta", nullable = false)
-    public String getTarjeta() {
-        return tarjeta;
+    @Id
+    public int getId() {
+        return id;
     }
-    public void setTarjeta(String tarjeta) {
-        this.tarjeta = tarjeta;
+    public void setId(int id) {
+        this.id = id;
     }
+
 }
